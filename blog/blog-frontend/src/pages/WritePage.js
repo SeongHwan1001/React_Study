@@ -3,7 +3,7 @@
 import React from 'react';
 
 const WritePage = () => {
-   return <div>글쓰디</div>;
+   return <div>글쓰기</div>;
 };
 
 export default WritePage;
