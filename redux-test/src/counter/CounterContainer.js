@@ -16,6 +16,8 @@ const CounterContainer = () => {
          number={number}
          onIncrease={() => dispatch(increase())}
          onDecrease={() => dispatch(decrease())}
+         // onIncrease={increase}
+         // onDecrease={decrease}
       />
    );
 };

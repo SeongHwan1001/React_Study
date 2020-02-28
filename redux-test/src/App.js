@@ -1,13 +1,16 @@
 import React from 'react';
 import Counter from './counter';
 import Change from './change';
+import Todos from './todos';
 
 const App = () => {
    return (
       <div>
          <Counter />
-         <br />
+         <hr />
          <Change />
+         <hr />
+         <Todos />
       </div>
    );
 };
