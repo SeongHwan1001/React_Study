@@ -5,7 +5,7 @@ import Todos from './todos';
 
 const App = () => {
    return (
-      <div>
+      <div> 
          <Counter />
          <hr />
          <Change />
